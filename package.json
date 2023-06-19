@@ -1,15 +1,15 @@
 {
-  "name": "cgwebhooks-cli",
+  "name": "cg-cli",
   "version": "0.1.0",
-  "description": "cli for using the Optimizely Content Graph Webhooks API",
-  "homepage": "https://github.com/kunalshetye/cg-webhooks-cli#readme",
+  "description": "cli for using the Optimizely Content Graph API",
+  "homepage": "https://github.com/kunalshetye/cg-cli#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kunalshetye/cg-webhooks-cli.git"
+    "url": "https://github.com/kunalshetye/cg-cli.git"
   },
   "main": "index.js",
   "bin": {
-    "cgwebhooks": "./index.js"
+    "cg": "./index.js"
   },
   "author": "Kunal Shetye",
   "type": "module",

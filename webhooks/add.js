@@ -1,6 +1,6 @@
 import {createCommand} from "commander";
-import {sendRequest} from "./hmac.js";
-import {webhookApiUrl} from "./commands.js";
+import {sendRequest} from "../lib/hmac.js";
+import {webhookApiUrl} from "./webhooks.js";
 const log = console.log;
 
 export const addWebhooksCmd = createCommand("add")

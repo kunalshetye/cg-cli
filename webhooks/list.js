@@ -1,10 +1,10 @@
 import {createCommand} from "commander";
-import {sendRequest} from "./hmac.js";
-import {webhookApiUrl} from "./commands.js";
+import {sendRequest} from "../lib/hmac.js";
+import {webhookApiUrl} from "./webhooks.js";
 const log = console.log;
 
 export const listWebhooksCmd = createCommand("list")
-    .description("lists currently registered commands")
+    .description("lists currently registered webhooks")
     .argument("<appkey>", "ContentGraph AppKey")
     .argument("<appSecret>", "ContentGraph AppSecret")
     .action((appKey, appSecret) => {
