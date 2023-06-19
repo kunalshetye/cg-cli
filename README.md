@@ -4,9 +4,9 @@ command line utility to interact with the Optimizely Content Graph API
 ## Installation
 
 ```shell
-npm i cg-cli -g
+npm i optimizely-cg-cli -g
 
-yarn global add cg-cli
+yarn global add optimizely-cg-cli
 ```
 
 ## Commands

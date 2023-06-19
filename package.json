@@ -1,5 +1,5 @@
 {
-  "name": "cg-cli",
+  "name": "optimizely-cg-cli",
   "version": "0.1.0",
   "description": "cli for using the Optimizely Content Graph API",
   "homepage": "https://github.com/kunalshetye/cg-cli#readme",
