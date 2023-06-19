@@ -7,7 +7,7 @@ const program = new Command();
 
 program
     .name('cg-webhooks-cli')
-    .description('CLI to use the content graph Webhooks API')
+    .description('CLI to use the Optimizely Content Graph Webhooks API')
     .version('0.1.0');
 
 webhookCommands.forEach((cmd) => program.addCommand(cmd));

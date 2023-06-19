@@ -10,7 +10,29 @@ yarn global add cgwebhooks-cli
 ```
 
 ## Actions
-You can perform the following actions
+
+You can perform the following actions with the CLI
+
+### --help
+
+use --help to list all commands and options
+
+```shell
+Usage: cg-webhooks-cli [options] [command]
+
+CLI to use the Optimizely Content Graph Webhooks API
+
+Options:
+  -V, --version                            output the version number
+  -h, --help                               display help for command
+
+Commands:
+  list <appkey> <appSecret>                lists currently registered commands
+  add <appkey> <appSecret> <url>           add a new webhook
+  delete <appkey> <appSecret> <webhookId>  delete an existing registered webhook
+  help [command]                           display help for command
+```
+
 
 ### list
 
