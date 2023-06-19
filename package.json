@@ -1,0 +1,19 @@
+{
+  "name": "cgwebhooks",
+  "version": "0.1.0",
+  "description": "cli for using the Optimizely Content Graph Webhooks API",
+  "main": "index.js",
+  "bin": {
+    "cgwebhooks": "./index.js"
+  },
+  "author": "Kunal Shetye",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "commander": "^11.0.0",
+    "config": "^3.3.9",
+    "crypto-js": "^4.1.1",
+    "inquirer": "^9.2.7"
+  }
+}
