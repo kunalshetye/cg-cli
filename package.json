@@ -2,6 +2,11 @@
   "name": "cgwebhooks",
   "version": "0.1.0",
   "description": "cli for using the Optimizely Content Graph Webhooks API",
+  "homepage": "https://github.com/kunalshetye/cg-webhooks-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kunalshetye/cg-webhooks-cli.git"
+  },
   "main": "index.js",
   "bin": {
     "cgwebhooks": "./index.js"
@@ -12,8 +17,6 @@
   "private": true,
   "dependencies": {
     "commander": "^11.0.0",
-    "config": "^3.3.9",
-    "crypto-js": "^4.1.1",
-    "inquirer": "^9.2.7"
+    "crypto-js": "^4.1.1"
   }
 }
